@@ -1,4 +1,3 @@
-
 import styles from './VRpic.module.css'
 
 const VRpic = () => {
