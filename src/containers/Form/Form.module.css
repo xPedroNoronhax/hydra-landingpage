@@ -1,0 +1,235 @@
+.form_container{
+  width: 1275px;
+  height: 1008px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 130px;
+}
+
+.form_title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+  gap: 30px;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}
+
+.rowone{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.rowone input {
+  width: 524px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 40px;
+border: 2px solid #FFF;
+background: transparent;
+text-indent: 20px; /* Ajuste conforme necessário para acomodar o placeholder */
+padding: 10px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+input:focus{
+  outline: none;
+  color: #FFF;
+  font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.rowone ::placeholder,
+.rowtwo ::placeholder,
+.rowtree ::placeholder {
+  color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.rowtwo{
+  display: flex;
+  justify-content: center;
+
+}
+
+.rowtwo input {
+width: 1058px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 40px;
+border: 2px solid #FFF;
+background-color: transparent;
+text-indent: 20px;
+padding: 10px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.rowtree {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 67px;
+}
+.rowtree textarea{
+width: 1058px;
+height: 210px;
+flex-shrink: 0;
+border-radius: 40px;
+border: 2px solid #FFF;
+text-indent: 20px;
+padding: 20px;
+background-color: transparent;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+resize: none;
+
+}
+
+textarea:focus{
+  outline: none;
+  color: #FFF;
+  font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.formBtn{
+  margin: 0 auto;
+}
+
+@media (max-width:768px){
+
+  .form_container{
+    width: 100%;
+    height: 100%;
+  }
+
+  .form_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  svg{
+    max-width: 70%;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .rowone{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+
+    padding: 10px;
+  }
+
+  .rowone input {
+    width: 100%;
+
+  }
+
+  input:focus{
+    outline: none;
+    color: #FFF;
+    font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  }
+
+  .rowone ::placeholder,
+  .rowtwo ::placeholder,
+  .rowtree ::placeholder {
+    color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+  .rowtwo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+  }
+
+  .rowtwo input {
+  width: 100%;
+
+  }
+
+  .rowtree {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .rowtree textarea{
+  width: 100%;
+
+  }
+
+  textarea:focus{
+    outline: none;
+    color: #FFF;
+    font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  }
+
+  .formBtn{
+    margin-bottom: 50px;
+  }
+
+}

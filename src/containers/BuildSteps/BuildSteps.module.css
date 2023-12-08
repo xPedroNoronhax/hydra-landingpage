@@ -1,0 +1,53 @@
+.steps{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 57px;
+  padding-right: 57px;
+}
+
+.step{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+.circle_numbered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.numbered_content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.numbered_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.numbered_text h2 {
+  color: #343045;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+@media  (max-width:768px) {
+  .steps{
+    display: none;
+  }
+
+}

@@ -1,0 +1,63 @@
+.intro{
+  margin-top: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro_pt1{
+  display: flex;
+  gap: 30px;
+  }
+
+.intro_titles{
+  gap: 10px;
+}
+
+.arrow{
+  margin-top: 16px;
+
+
+}
+
+.intro_paragraph{
+max-width: 100%;
+}
+
+.intro_paragraph p {
+  margin-top: 0;
+  margin-bottom: 24px;
+  max-width: 652px;
+}
+
+@media (max-width:768px){
+  .intro{
+    display: block;
+  }
+
+  .intro_pt1{
+    display: block;
+    }
+
+  .intro_titles{
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .arrow{
+  display: none;
+
+
+  }
+
+  .intro_paragraph{
+  max-width: 100%;
+
+  }
+
+  .intro_paragraph p {
+    text-align: center;
+  }
+
+}

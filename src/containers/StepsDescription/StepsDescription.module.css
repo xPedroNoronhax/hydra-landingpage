@@ -1,0 +1,22 @@
+.descriptions{
+  margin-top: 25px;
+  display: flex;
+  gap: 80px;
+  margin-bottom: 112px;
+}
+.description_container{
+  display: flex;
+  align-items: center;
+
+}
+
+.steptitle span{
+  display: block;
+}
+
+@media (max-width:768px){
+.descriptions{
+  display: none;
+}
+}
+

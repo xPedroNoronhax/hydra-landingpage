@@ -1,0 +1,60 @@
+.why{
+  margin-top: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.why_pt1{
+display: flex;
+gap: 30px;
+}
+
+.arrow {
+  margin-top: 16px;
+
+}
+
+
+
+
+.why_paragraph p {
+  margin-top: 0;
+  margin-bottom: 24px;
+  max-width: 652px;
+}
+
+@media (max-width:768px){
+
+  .why{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .why_pt1{
+  display: flex;
+  gap: 30px;
+  }
+
+  .why_titles{
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .arrow {
+    display: none;
+
+  }
+
+
+
+
+  .why_paragraph p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    max-width: 652px;
+  }
+
+}
+

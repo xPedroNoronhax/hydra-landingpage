@@ -1,0 +1,11 @@
+.hero_content{
+  display: flex;
+  gap: 280px;
+}
+
+
+@media (max-width: 768px) {
+  .hero_content{
+    display: block;
+  }
+}

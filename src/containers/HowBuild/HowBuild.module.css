@@ -1,0 +1,44 @@
+.how{
+  margin-top: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.how_pt1{
+display: flex;
+gap: 30px;
+}
+
+.arrow {
+  margin-top: 16px;
+
+}
+
+
+
+
+.how_paragraph p {
+  margin-top: 0;
+  margin-bottom: 24px;
+  max-width: 652px;
+}
+
+@media (max-width:768px){
+  .how{
+    display: block;
+    text-align: center;
+
+  }
+
+  .how_pt1{
+    display: block;
+    }
+
+  .arrow {
+    display: none;
+
+  }
+
+}

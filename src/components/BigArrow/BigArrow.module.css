@@ -1,0 +1,12 @@
+.BigArrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+
+  padding: 0;
+}
+
+.arrow{
+  margin-left: -38px;
+}
