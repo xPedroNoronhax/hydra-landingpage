@@ -15,10 +15,10 @@ const TechList = () => {
         </div>
       </div>
       <div className={styles.companys}>
-        <img src="src\assets\images\companys\Hydra-Tech1 1.png" alt="" />
-        <img src="src\assets\images\companys\Hydra-Tech3 1.png" alt="" />
-        <img src="src\assets\images\companys\Hydra-Tech2 1.png" alt="" />
-        <img src="src\assets\images\companys\Hydra-Tech4 1.png" alt="" />
+        <img src="\images\companys\Hydra-Tech1 1.png" alt="" />
+        <img src="\images\companys\Hydra-Tech3 1.png" alt="" />
+        <img src="\images\companys\Hydra-Tech2 1.png" alt="" />
+        <img src="\images\companys\Hydra-Tech4 1.png" alt="" />
 
       </div>
     </div>

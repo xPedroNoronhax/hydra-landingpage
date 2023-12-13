@@ -4,8 +4,8 @@ import styles from './Header.module.css'
 const Header = () => (
   <header className={styles.mainHeader}>
     <div className={styles.mainHeader__logo}>
-      <img className={styles.imgLogo} src="src\assets\images\Logoimg.svg" alt="" />
-      <img className={styles.imgTxt}  src="src\assets\images\Logotxt.svg" alt="" />
+      <img className={styles.imgLogo} src="\images\Logoimg.svg" alt="" />
+      <img className={styles.imgTxt}  src="\images\Logotxt.svg" alt="" />
       <ul className={styles.mainHeader__menu}>
         <li>
           <a className={styles.mainHeader__menu__link} href="#">About</a>
