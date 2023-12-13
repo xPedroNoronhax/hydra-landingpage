@@ -38,6 +38,7 @@ export const SecondaryButton = styled.button`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  
   `
 
   export const CardButton = styled(PrimaryButton)`
