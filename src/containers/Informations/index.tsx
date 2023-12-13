@@ -29,7 +29,7 @@ const Informations = () => {
       </div>
       <div className={styles.information_container__content}>
         <div className={styles.information_container__content__img}>
-          <img src="public\images\mail-removebg-preview.png" alt="" />
+          <img src="\images\mail-removebg-preview.png" alt="" />
           </div>
         <div className={styles.information_container__info}>
           <h3>Send Us a Message</h3>
