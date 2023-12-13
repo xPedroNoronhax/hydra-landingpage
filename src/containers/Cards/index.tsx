@@ -42,7 +42,7 @@ const Cards = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="219" height="219" viewBox="0 0 219 219" fill="none">
               <circle cx="109.5" cy="109.5" r="109.5" fill="#0E0E0E" fillOpacity="0.32" />
               <foreignObject width="100%" height="100%">
-                <img className={styles.profile_pic} src="public\images\education.png" alt="Profile Picture" />
+                <img className={styles.profile_pic} src="\images\education.png" alt="Profile Picture" />
               </foreignObject>
             </svg>
           </div>
