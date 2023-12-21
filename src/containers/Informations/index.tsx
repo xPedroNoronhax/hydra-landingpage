@@ -1,11 +1,16 @@
 import styles from './Informations.module.css'
 
+import location from '../../assets/images/Location-Icon-removebg-preview.png'
+import phone from '../../assets/images/phone-call-removebg-preview.png'
+import mail from '../../assets/images/mail-removebg-preview.png'
+
+
 const Informations = () => {
   return(
     <div className={styles.information_container}>
       <div className={styles.information_container__content}>
         <div className={styles.information_container__content__img}>
-          <img src="\images\Location-Icon-removebg-preview.png" alt="" />
+          <img src={location} alt="" />
           </div>
         <div className={styles.information_container__info}>
           <h3>Pay Us a Visit</h3>
@@ -17,7 +22,7 @@ const Informations = () => {
       </div>
       <div className={styles.information_container__content}>
         <div className={styles.information_container__content__img}>
-          <img src="\images\phone-call-removebg-preview.png" alt="" />
+          <img src={phone} alt="" />
           </div>
         <div className={styles.information_container__info}>
           <h3>Give Us a Call</h3>
@@ -29,7 +34,7 @@ const Informations = () => {
       </div>
       <div className={styles.information_container__content}>
         <div className={styles.information_container__content__img}>
-          <img src="\images\mail-removebg-preview.png" alt="" />
+          <img src={mail} alt="" />
           </div>
         <div className={styles.information_container__info}>
           <h3>Send Us a Message</h3>
