@@ -7,7 +7,7 @@ const About = () => {
       <div className={styles.about}>
 
         <div className={styles.about_pic} >
-          <img src="https://s3-alpha-sig.figma.com/img/1cc9/d296/7acef42bde421ac41ea8e5c2550b903d?Expires=1702857600&Signature=lS-FvRTzxvH8xC5acIm~Ac8sD~lwKxJt5tkgDiboX5K1-ue-rn-OlLkPkEklk2MKY0iXquKLqmw22nXH4j4ZUvU-XLlKuxM-lQ3RK-HtJ2TFYGC~jK1lhXw4kjtaPa7121pLh6PnT56GG-TBLGgROybTJCIIWBMde9-PPqJSbDPVHszojePeam1c5fkgFtJD0YDCtL5MlYjYsPbWMtdvbRbA~M3Q7R6oe8RVg3cVI3X7riallZ5FEe8us6EwzclKSrM~Xosgwki5ftGriYJohWe8-iPhc8zLqKbwqrPNpJFyFZW2dZPmIcZ4ap8vdGfWdR-qqHPnAmaeF7yWJ44Wsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+          <img src="https://s3-alpha-sig.figma.com/img/1cc9/d296/7acef42bde421ac41ea8e5c2550b903d?Expires=1704067200&Signature=kfeMb0BMy9lCvSt-msChrU9NjqaFTq5vPFGujzmVx19FHV1DQaMJYiObNoB4hi0mGevJ-7slVLYhPT3jxVRUKrRL-D5Pt80KPZn3RmvZ-mXEjwtm5V6nKtNmHDO54SOvamJKHi33Hdgy66XronPxZbW3vBXdDhM9u9UbJ1M5iE7Ui~Y4Q28-EQyAQt5aH7WaYZ4XjZvJdLfn8UO4gTU06f46fktF3dJavVaaKzEbz1N1yS7au0Ntz3GY2PQE1mSDw6iK8sqL6bZv4MoGXZ0OJ5oFGTJO8IMfAmNE-NbV41l1rOWl6LtwS7hv1PE7b~ZgPMfB42QawtcYKIViuFlGYQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
         </div>
 
         <div className={styles.about_txt}>
