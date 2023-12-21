@@ -6,6 +6,11 @@ import CustomTitle from '../../components/Titulo';
 import { CardParagraph } from '../../components/Paragrafo/style';
 import { CardButton } from '../../components/Botoes';
 
+import simulation from '../../assets/images/simulation.png'
+import education from '../../assets/images/education.png'
+import selfcare from '../../assets/images/selfcare.png'
+import outdoor from '../../assets/images/outdoor.png'
+
 const Cards = () => {
   return (
     <div>
@@ -15,7 +20,7 @@ const Cards = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="219" height="219" viewBox="0 0 219 219" fill="none">
               <circle cx="109.5" cy="109.5" r="109.5" fill="#0E0E0E" fillOpacity="0.32" />
               <foreignObject width="100%" height="100%">
-                <img className={styles.profile_pic} src="\images\simulation.png" alt="Profile Picture" />
+                <img className={styles.profile_pic} src={simulation} alt="Profile Picture" />
               </foreignObject>
             </svg>
           </div>
@@ -42,7 +47,7 @@ const Cards = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="219" height="219" viewBox="0 0 219 219" fill="none">
               <circle cx="109.5" cy="109.5" r="109.5" fill="#0E0E0E" fillOpacity="0.32" />
               <foreignObject width="100%" height="100%">
-                <img className={styles.profile_pic} src="\images\education.png" alt="Profile Picture" />
+                <img className={styles.profile_pic} src={education} alt="Profile Picture" />
               </foreignObject>
             </svg>
           </div>
@@ -68,7 +73,7 @@ const Cards = () => {
             <svg xmlns="http://wwwa.w3.org/2000/svg" width="219" height="219" viewBox="0 0 219 219" fill="none">
               <circle cx="109.5" cy="109.5" r="109.5" fill="#0E0E0E" fillOpacity="0.32" />
               <foreignObject width="100%" height="100%">
-                <img className={styles.profile_pic} src="\images\selfcare.png" alt="Profile Picture" />
+                <img className={styles.profile_pic} src={selfcare} alt="Profile Picture" />
               </foreignObject>
             </svg>
           </div>
@@ -93,7 +98,7 @@ const Cards = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="219" height="219" viewBox="0 0 219 219" fill="none">
               <circle cx="109.5" cy="109.5" r="109.5" fill="#0E0E0E" fillOpacity="0.32" />
               <foreignObject width="100%" height="100%">
-                <img className={styles.profile_pic} src="\images\outdoor.png" alt="Profile Picture" />
+                <img className={styles.profile_pic} src={outdoor} alt="Profile Picture" />
               </foreignObject>
             </svg>
           </div>

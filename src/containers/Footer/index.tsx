@@ -1,5 +1,6 @@
 import { AnnounceButton } from '../../components/Botoes'
 import styles from './Footer.module.css'
+import logo from '../../assets/images/Logoimg.svg'
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className={styles.footer}>
 
         <div className={styles.logo}>
-          <img src="\images\Logoimg.svg" alt="" />
+          <img src={logo} alt="" />
           <svg xmlns="http://www.w3.org/2000/svg" width="6" height="197" viewBox="0 0 6 197" fill="none">
   <path d="M3 196.5V0.5" stroke="url(#paint0_linear_13_75)" stroke-width="6"/>
   <defs>

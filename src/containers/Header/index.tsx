@@ -1,15 +1,13 @@
 import { PrimaryButton, SecondaryButton } from '../../components/Botoes';
 import styles from './Header.module.css'
-
-import imgLogo from '../../assets/images/Logoimg.svg'
-
-import imgTxt from '../../assets/images/Logotxt.svg'
+import logo from '../../assets/images/Logoimg.svg'
+import txt from '../../assets/images/Logotxt.svg'
 
 const Header = () => (
   <header className={styles.mainHeader}>
     <div className={styles.mainHeader__logo}>
-      <img className={styles.imgLogo} src={imgLogo} alt="" />
-      <img className={styles.imgTxt}  src={imgTxt} alt="" />
+      <img className={styles.imgLogo} src={logo} alt="" />
+      <img className={styles.imgTxt}  src={txt} alt="" />
       <ul className={styles.mainHeader__menu}>
         <li>
           <a className={styles.mainHeader__menu__link} href="#">About</a>
