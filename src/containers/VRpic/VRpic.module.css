@@ -1,5 +1,5 @@
-.hero_pic{
-  width: 524px;
+.hero_pic {
+  width: 490px; /* Reduzi a largura do contêiner */
   height: 455px;
   overflow: hidden;
   border-radius: 100px 100px 100px 240px;
@@ -8,15 +8,12 @@
 
 .hero_pic_img {
   width: 100%;
-  height: 140%;
+  height: 100%;
   object-fit: cover;
 }
 
 @media (max-width: 768px) {
-  .hero_pic{
+  .hero_pic {
     display: none;
-
   }
-
-
 }

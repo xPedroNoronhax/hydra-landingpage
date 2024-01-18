@@ -9,16 +9,16 @@
   height: 557px;
   flex-shrink: 0;
   border-radius: 100px 240px;
-  background: #A3A3A3;
+  
 
   overflow: hidden; /* Certifique-se de ocultar qualquer parte da imagem que ultrapasse as bordas da div */
 }
 
 .about_pic img {
-  width: 100%; /* Ajusta a largura da imagem para 100% da largura da div pai (.about_pic) */
-  height: 100%; /* Ajusta a altura da imagem para 100% da altura da div pai (.about_pic) */
+  width: 100%;
+  height: 100%;
   border-radius: 26px;
-  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
 
 }
 
